@@ -30,15 +30,14 @@ This program was desighned to detect wheter someone is whearing a face-mask thro
  
  1. Install python: Follow this link and the instructions that follow: https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe
 
-2. install pip(python package manager): `sudo apt install python3-pip`/`sudo apt install python3-pip`
 
-3. install opencv 2 : `pip3 install opencv-python`
+2. install opencv 2 : `pip3 install opencv-python`
 
-4. Install tensorflow : `pip3 install tensorflow`
+3. Install tensorflow : `pip3 install tensorflow`
 
-5. Install imutils: ` pip3 install imutils`
+4. Install imutils: ` pip3 install imutils`
 
-6. unzip `mask_model\face_mask_model.zip`
+5. unzip `mask_model\face_mask_model.zip`
 
 ## **Running the program**
 
