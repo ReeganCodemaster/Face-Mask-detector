@@ -54,6 +54,3 @@ Contributions to this project are welcomed and encouraged!
 
  
 
-
-
-# Face-Mask-detector
