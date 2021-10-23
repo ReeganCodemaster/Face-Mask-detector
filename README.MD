@@ -1,7 +1,7 @@
 #  **Face mask detector**
 
 
-This program was desighned to detect wheter someone is whearing a face-mask through a live video stream.A custom lightwigh CNN trained with Tensorflow on a public dataset provided by kaggle is used to detect wheter each face detected by the cv2 face detection dnn is whearing a mask
+This program was designed to detect whether someone is wearing a facemask through a live video stream. A custom lightweight CNN trained with TensorFlow on a public dataset provided by Kaggle is used to detect whether each face detected by the cv2 face detection dnn is wearing a mask
 
 ##To find the notebook used to traiin the model, visit: https://www.kaggle.com/reeganviljoen/face-mask-dtection##
 
