@@ -1,9 +1,9 @@
 #  **Face mask detector**
 
 
-This program was designed to detect whether someone is wearing a facemask through a live video stream. A custom lightweight CNN trained with TensorFlow on a public dataset provided by Kaggle is used to detect whether each face detected by the cv2 face detection dnn is wearing a mask
+I made this program to detect whether someone is wearing a facemask through a live video stream. I built my model on the MobileNetV2 model wich shows great improvemnts in accuracy over the custom solution in `version 1`.i  trained the model with TensorFlow on a public dataset provided by Kaggle . Opencv is used to create and feed each frame ino the original model.
 
-##To find the notebook used to traiin the model, visit: https://www.kaggle.com/reeganviljoen/face-mask-dtection##
+To find the notebook used to train the model, visit: https://www.kaggle.com/reeganviljoen/face-mask-dtection 
 
 ## **Instalation**
 
@@ -21,11 +21,7 @@ This program was designed to detect whether someone is wearing a facemask throug
 
     5. Install imutils: ` pip3 install imutils`
 
-    6. unzip the model:
-
-        6.1. install unzip: `sudo apt install unzip`
-
-        6.2. unzip the model: `unzip mask_model\face_mask_model.zip `
+    6. Downlaod the model from my google drive(its to big for github): https://drive.google.com/drive/folders/1VLYJh1CotZViI7uQ1KPlZH-LeTed45O4?usp=sharing
 ### **Windows**
  
  1. Install python: Follow this link and the instructions that follow: https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe
@@ -37,13 +33,15 @@ This program was designed to detect whether someone is wearing a facemask throug
 
 4. Install imutils: ` pip3 install imutils`
 
-5. unzip `mask_model\face_mask_model.zip`
+ 6. Downlaod the model from my google drive(its to big for github): https://drive.google.com/drive/folders/1VLYJh1CotZViI7uQ1KPlZH-LeTed45O4?usp=sharing
 
 ## **Running the program**
 
-Before running your program it is important to note that opencv indexes your camera id from 0 , and it may take a few attempts to find the right camera in a mutiple camera set up
+Before running your program it is important to note that opencv indexes your camera id from 0 ,but in this second version if have included a utility to help you find the right cmera number
+so now you can test away with `camtest.py`
 
-**Run the program:**`python3 main.py`
+**Run the program:** `python3 main.py`
+
  after running the program follow the prompts
 
 ## **Contributing**
